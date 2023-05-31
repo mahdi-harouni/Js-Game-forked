@@ -105,6 +105,8 @@ $(document).ready(function(){
             `;
         }
         $('main').html( html );
+        
+        console.log("Sart Game");
 
         setTimeout( function(){
 
