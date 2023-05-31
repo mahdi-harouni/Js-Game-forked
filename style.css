@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    text-align: right;
+    background: url("images/background.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: IRANSansFaNum;
+}
+
+.game-container{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+aside,main{
+    background: #FFF;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    text-align: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.card-item{
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.card-item .flip-card{
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.card-item.active .flip-card,
+.card-item.valid .flip-card{
+    transform: rotateY(180deg);
+}
+
+.card-image{
+    transform: rotateY(180deg);
+}
+
+.game-container.preview .card-item .flip-card{
+    transform: rotateY(180deg);
+}
+
+.card-item img{
+    width: 96px;
+    height: 96px;
+    background: #FFF;
+    width: 100% ;
+    height: auto;
+    border-radius: 15px;
+}
+
+.card-item .question-mark{
+    position: absolute;
+    left: 0;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.time{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0 0px 0;
+}
+
+.time-label{
+    color: #00cb00;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-item.valid .flip-card {
+    border: 1px solid lime;
+}
+
+.separator{
+    border-bottom: 1px dashed #8f8f8f;
+    margin: 20px 40px;
+}
+
+.answer-status{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.answer-status p{
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.answer-status strong{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.answer-valid strong{
+    color: green;
+}
+
+p.finished-label {
+    font-size: 54px;
+    font-weight: bold;
+    color: red;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-45deg);
+    opacity: 0;
+    transition: .3s;
+}
+
+p.finished-label.finished{
+    opacity: 1;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.answer-wrong strong{
+    color: red;
+}
+
+.card-item .flip-card:before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: 9;
+    background: url('images/tick.png') no-repeat;
+    color: #FFF;
+    background-size: 100%;
+    width: 32px;
+    height: 32px;
+    border-radius: 0 15px 0 5px;
+    opacity: 0;
+    transition: 0.5s ease-out .5s;
+    transform: rotateY(180deg);
+}
+
+.card-item.valid .flip-card:before{
+    opacity: 1;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.score strong {
+    color: green;
+    font-size: 40px;
+    direction: ltr;
+    display: inline-block;
+}
+
+.score.error strong{
+    color: red;
+}
+
+.score.zero strong {
+    color: black;
+}
+
+.score p {
+    font-size: 24px;
+}

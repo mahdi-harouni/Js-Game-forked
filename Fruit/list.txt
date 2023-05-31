@@ -1,0 +1,25 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 0C41-9737
+
+ Directory of C:\Users\rayan partov\Downloads\Javascript-Card-Game-master\Fruit
+
+05/17/2023  04:30 PM    <DIR>          .
+05/17/2023  04:30 PM    <DIR>          ..
+05/17/2023  11:24 AM            77,370 apple.png
+05/17/2023  11:24 AM            50,822 avokado.png
+05/17/2023  11:24 AM            45,358 banana.png
+05/17/2023  11:24 AM            80,826 blackberry.png
+05/17/2023  11:24 AM            53,628 cherry.png
+05/17/2023  11:24 AM            76,928 grape.png
+05/17/2023  04:30 PM                 0 list.txt
+05/17/2023  11:24 AM            53,309 mango.png
+05/17/2023  11:24 AM            46,127 melon.png
+05/17/2023  11:24 AM            64,954 nectarine.png
+05/17/2023  11:24 AM            75,299 orange.png
+05/17/2023  11:24 AM            48,369 pear.png
+05/17/2023  11:24 AM            68,025 pomegranate.png
+05/17/2023  11:24 AM            59,229 strawberry.png
+05/17/2023  11:24 AM            59,318 tomato.png
+05/17/2023  11:24 AM            78,013 watermelon.png
+              16 File(s)        937,575 bytes
+               2 Dir(s)  10,468,745,216 bytes free
