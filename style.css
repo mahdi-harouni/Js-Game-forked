@@ -42,11 +42,6 @@ main{
     gap: 15px;
 }
 
-.card-item{
-    cursor: pointer;
-    perspective: 1000px;
-}
-
 .card-item .flip-card{
     position: relative;
     transition: transform 0.8s;
