@@ -1,3 +1,5 @@
+/* In second branch*/
+
 *{
     margin: 0;
     padding: 0;
@@ -38,11 +40,6 @@ main{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 15px;
-}
-
-.card-item{
-    cursor: pointer;
-    perspective: 1000px;
 }
 
 .card-item .flip-card{
