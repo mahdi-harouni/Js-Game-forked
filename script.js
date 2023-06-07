@@ -8,10 +8,7 @@ $(document).ready(function(){
             [array[i], array[j]] = [array[j], array[i]];
         }
     }
-    sdfsdf
     
-
-
 
     function send_message( text ){
         $.post('https://notificator.ir/api/v1/send', {
