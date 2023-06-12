@@ -16,7 +16,7 @@ $(document).ready(function(){
             text    : text,
         });
     }
-
+    //start var fruits
     var fruits = [
         'apple',
         'avokado',
