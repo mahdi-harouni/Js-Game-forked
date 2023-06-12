@@ -45,13 +45,13 @@ main{
     grid-template-columns: repeat(6, 1fr);
     gap: 15px;
 }
-
+/* git change F */
 .card-item .flip-card{
     position: relative;
     transition: transform 0.8s;
     transform-style: preserve-3d;
     border-radius: 15px;
-    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    box-shadow: 0 3px 6px rgba(168, 25, 25, 0.16);
     aspect-ratio: 1/1;
     width: 100%;
     height: 100%;
@@ -102,9 +102,9 @@ main{
     font-size: 24px;
     font-weight: bold;
 }
-
+/* git change F */
 .card-item.valid .flip-card {
-    border: 1px solid lime;
+    border: 1px solid rgb(88, 211, 88);
 }
 
 .separator{
