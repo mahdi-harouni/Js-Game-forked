@@ -116,9 +116,9 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-
+/* git change F */
 .answer-status p{
-    color: #424242;
+    color: #331112;
     margin-bottom: 10px;
 }
 
