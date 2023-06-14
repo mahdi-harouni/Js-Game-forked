@@ -31,9 +31,9 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/* git change F */
 aside,main{
-    background: #FFF;
+    background: #c76969;
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
@@ -56,7 +56,7 @@ main{
     transition: transform 0.8s;
     transform-style: preserve-3d;
     border-radius: 15px;
-    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    box-shadow: 0 3px 6px rgba(114, 35, 151, 0.16);
     aspect-ratio: 1/1;
     width: 100%;
     height: 100%;
@@ -79,11 +79,11 @@ main{
 .game-container.preview .card-item .flip-card{
     transform: rotateY(180deg);
 }
-
+/* git change F */
 .card-item img{
     width: 96px;
     height: 96px;
-    background: #FFF;
+    background: #391572;
     width: 100% ;
     height: auto;
     border-radius: 15px;
@@ -107,9 +107,9 @@ main{
     font-size: 24px;
     font-weight: bold;
 }
-
+/* git change F */
 .card-item.valid .flip-card {
-    border: 1px solid lime;
+    border: 1px solid rgb(88, 211, 88);
 }
 
 .separator{
@@ -121,9 +121,9 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-
+/* git change F */
 .answer-status p{
-    color: #424242;
+    color: #331112;
     margin-bottom: 10px;
 }
 

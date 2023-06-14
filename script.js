@@ -14,7 +14,7 @@ $(document).ready(function(){
             text    : text,
         });
     }
-
+    //start var fruits
     var fruits = [
         'apple',
         'avokado',
@@ -143,8 +143,8 @@ $(document).ready(function(){
 امتیاز کلی: ${final_score}
 پاسخ های صحیح: ${correct_answer}
 پاسخ های اشتباه: ${incorrect_answer}
-زمان باقیمانده: ${duration}
-
+زززمان باقیمانده: ${duration}    
+// git change F
 با تشکر
         `;
         send_message( message );
